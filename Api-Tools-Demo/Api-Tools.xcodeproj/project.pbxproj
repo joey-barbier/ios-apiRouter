@@ -16,6 +16,7 @@
 		281D998625ADDDA2005D95BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281D998425ADDDA2005D95BA /* LaunchScreen.storyboard */; };
 		281D999A25ADE399005D95BA /* ApiTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D999925ADE399005D95BA /* ApiTodo.swift */; };
 		281D99A325ADE548005D95BA /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D99A225ADE548005D95BA /* Todo.swift */; };
+		2863ADA128D8FA120038EB6C /* ci_post_clone.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2863ADA028D8FA120038EB6C /* ci_post_clone.sh */; };
 		28CE9E42288C7E8B000C2B7A /* Api_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE9E41288C7E8B000C2B7A /* Api_ToolsTests.swift */; };
 		28CE9E48288C7ECA000C2B7A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D99A225ADE548005D95BA /* Todo.swift */; };
 		28CE9E49288C7ECD000C2B7A /* ApiTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D999925ADE399005D95BA /* ApiTodo.swift */; };
@@ -46,6 +47,7 @@
 		281D998725ADDDA2005D95BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		281D999925ADE399005D95BA /* ApiTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTodo.swift; sourceTree = "<group>"; };
 		281D99A225ADE548005D95BA /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		2863ADA028D8FA120038EB6C /* ci_post_clone.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		28CE9E3F288C7E8B000C2B7A /* Api-ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Api-ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CE9E41288C7E8B000C2B7A /* Api_ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_ToolsTests.swift; sourceTree = "<group>"; };
 		28CE9E4A288C83F3000C2B7A /* TodoFakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoFakeModel.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		281D996D25ADDDA0005D95BA = {
 			isa = PBXGroup;
 			children = (
+				2863AD9F28D8FA120038EB6C /* ci_scripts */,
 				281D997825ADDDA0005D95BA /* Api-Tools */,
 				28CE9E40288C7E8B000C2B7A /* Api-ToolsTests */,
 				281D997725ADDDA0005D95BA /* Products */,
@@ -167,6 +170,14 @@
 				281D99A125ADE53B005D95BA /* Model */,
 			);
 			path = Todo;
+			sourceTree = "<group>";
+		};
+		2863AD9F28D8FA120038EB6C /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				2863ADA028D8FA120038EB6C /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 		28CE9E3A288C722B000C2B7A /* Views */ = {
@@ -282,6 +293,7 @@
 			files = (
 				281D998625ADDDA2005D95BA /* LaunchScreen.storyboard in Resources */,
 				281D998325ADDDA2005D95BA /* Assets.xcassets in Resources */,
+				2863ADA128D8FA120038EB6C /* ci_post_clone.sh in Resources */,
 				281D998125ADDDA1005D95BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
