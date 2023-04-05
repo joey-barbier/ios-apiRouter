@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		278215B97B62087E18C4D739 /* Pods_Api_Tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94ED7D8A98CED429FCEEEFA0 /* Pods_Api_Tools.framework */; };
 		281D997A25ADDDA0005D95BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D997925ADDDA0005D95BA /* AppDelegate.swift */; };
 		281D997C25ADDDA1005D95BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D997B25ADDDA1005D95BA /* SceneDelegate.swift */; };
 		281D997E25ADDDA1005D95BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D997D25ADDDA1005D95BA /* ViewController.swift */; };
@@ -17,11 +16,19 @@
 		281D999A25ADE399005D95BA /* ApiTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D999925ADE399005D95BA /* ApiTodo.swift */; };
 		281D99A325ADE548005D95BA /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D99A225ADE548005D95BA /* Todo.swift */; };
 		2863ADA128D8FA120038EB6C /* ci_post_clone.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2863ADA028D8FA120038EB6C /* ci_post_clone.sh */; };
+		28A0CC0528F75AE00052CA9C /* Api_ToolsOSXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A0CC0428F75AE00052CA9C /* Api_ToolsOSXApp.swift */; };
+		28A0CC0728F75AE00052CA9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A0CC0628F75AE00052CA9C /* ContentView.swift */; };
+		28A0CC0928F75AE20052CA9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A0CC0828F75AE20052CA9C /* Assets.xcassets */; };
+		28A0CC0C28F75AE20052CA9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A0CC0B28F75AE20052CA9C /* Preview Assets.xcassets */; };
+		28A0CC1128F75AFD0052CA9C /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D99A225ADE548005D95BA /* Todo.swift */; };
+		28A0CC1228F75B020052CA9C /* ApiTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D999925ADE399005D95BA /* ApiTodo.swift */; };
 		28CE9E42288C7E8B000C2B7A /* Api_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE9E41288C7E8B000C2B7A /* Api_ToolsTests.swift */; };
 		28CE9E48288C7ECA000C2B7A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D99A225ADE548005D95BA /* Todo.swift */; };
 		28CE9E49288C7ECD000C2B7A /* ApiTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D999925ADE399005D95BA /* ApiTodo.swift */; };
 		28CE9E4B288C83F3000C2B7A /* TodoFakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE9E4A288C83F3000C2B7A /* TodoFakeModel.swift */; };
-		863E0BD0B3723E4E3BEF1CA6 /* Pods_Api_Tools_Api_ToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0765D61D4B33E7014763E34 /* Pods_Api_Tools_Api_ToolsTests.framework */; };
+		5AA6A1CACC6A3909167A078C /* Pods_Api_Tools_Api_ToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB8B11CCF5A6C6C0C3FC554 /* Pods_Api_Tools_Api_ToolsTests.framework */; };
+		8323825E0AEAAB47F468F93A /* Pods_Api_Tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F95E4CCCA155B13EA5A8D49 /* Pods_Api_Tools.framework */; };
+		D11442A5B0DDF13E16EE61EA /* Pods_Api_ToolsOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2573502C75B62B235EFBFCE /* Pods_Api_ToolsOSX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C0C5A4CE219913424540494 /* Pods-Api-Tools-Api-ToolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools-Api-ToolsTests.debug.xcconfig"; path = "Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2141AB901EFDB3E1B0CEF001 /* Pods-Api-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools.debug.xcconfig"; path = "Target Support Files/Pods-Api-Tools/Pods-Api-Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		281D997625ADDDA0005D95BA /* Api-Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Api-Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281D997925ADDDA0005D95BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		281D997B25ADDDA1005D95BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,13 +53,25 @@
 		281D999925ADE399005D95BA /* ApiTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTodo.swift; sourceTree = "<group>"; };
 		281D99A225ADE548005D95BA /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		2863ADA028D8FA120038EB6C /* ci_post_clone.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
+		28A0CBFC28F75A750052CA9C /* PrismaApiRouter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PrismaApiRouter.podspec; path = ../PrismaApiRouter.podspec; sourceTree = "<group>"; };
+		28A0CC0228F75AE00052CA9C /* Api-ToolsOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Api-ToolsOSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A0CC0428F75AE00052CA9C /* Api_ToolsOSXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_ToolsOSXApp.swift; sourceTree = "<group>"; };
+		28A0CC0628F75AE00052CA9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28A0CC0828F75AE20052CA9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28A0CC0B28F75AE20052CA9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28A0CC0D28F75AE20052CA9C /* Api_ToolsOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Api_ToolsOSX.entitlements; sourceTree = "<group>"; };
 		28CE9E3F288C7E8B000C2B7A /* Api-ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Api-ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CE9E41288C7E8B000C2B7A /* Api_ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_ToolsTests.swift; sourceTree = "<group>"; };
 		28CE9E4A288C83F3000C2B7A /* TodoFakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoFakeModel.swift; sourceTree = "<group>"; };
-		94ED7D8A98CED429FCEEEFA0 /* Pods_Api_Tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_Tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC77DA3C13E6430B737B9556 /* Pods-Api-Tools-Api-ToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools-Api-ToolsTests.release.xcconfig"; path = "Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests.release.xcconfig"; sourceTree = "<group>"; };
-		D370DCF5B242C75545677525 /* Pods-Api-Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools.release.xcconfig"; path = "Target Support Files/Pods-Api-Tools/Pods-Api-Tools.release.xcconfig"; sourceTree = "<group>"; };
-		F0765D61D4B33E7014763E34 /* Pods_Api_Tools_Api_ToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_Tools_Api_ToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		600DC09FF5A309799A2E36A0 /* Pods-Api-Tools-Api-ToolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools-Api-ToolsTests.debug.xcconfig"; path = "Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81F719345D1949648017E282 /* Pods-Api-Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools.release.xcconfig"; path = "Target Support Files/Pods-Api-Tools/Pods-Api-Tools.release.xcconfig"; sourceTree = "<group>"; };
+		8280D0128980DF1645E48618 /* Pods-Api-ToolsOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-ToolsOSX.release.xcconfig"; path = "Target Support Files/Pods-Api-ToolsOSX/Pods-Api-ToolsOSX.release.xcconfig"; sourceTree = "<group>"; };
+		8F95E4CCCA155B13EA5A8D49 /* Pods_Api_Tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_Tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB8B11CCF5A6C6C0C3FC554 /* Pods_Api_Tools_Api_ToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_Tools_Api_ToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2573502C75B62B235EFBFCE /* Pods_Api_ToolsOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_ToolsOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C472DAA42E2E3056613D0372 /* Pods-Api-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools.debug.xcconfig"; path = "Target Support Files/Pods-Api-Tools/Pods-Api-Tools.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F93AE297D319EA4E96D178 /* Pods-Api-Tools-Api-ToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools-Api-ToolsTests.release.xcconfig"; path = "Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB4C4BA285A9DB0987579182 /* Pods-Api-ToolsOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-ToolsOSX.debug.xcconfig"; path = "Target Support Files/Pods-Api-ToolsOSX/Pods-Api-ToolsOSX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +79,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278215B97B62087E18C4D739 /* Pods_Api_Tools.framework in Frameworks */,
+				8323825E0AEAAB47F468F93A /* Pods_Api_Tools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A0CBFF28F75AE00052CA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11442A5B0DDF13E16EE61EA /* Pods_Api_ToolsOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				863E0BD0B3723E4E3BEF1CA6 /* Pods_Api_Tools_Api_ToolsTests.framework in Frameworks */,
+				5AA6A1CACC6A3909167A078C /* Pods_Api_Tools_Api_ToolsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,10 +105,12 @@
 		267146CDEBACD13C4DE52687 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2141AB901EFDB3E1B0CEF001 /* Pods-Api-Tools.debug.xcconfig */,
-				D370DCF5B242C75545677525 /* Pods-Api-Tools.release.xcconfig */,
-				0C0C5A4CE219913424540494 /* Pods-Api-Tools-Api-ToolsTests.debug.xcconfig */,
-				AC77DA3C13E6430B737B9556 /* Pods-Api-Tools-Api-ToolsTests.release.xcconfig */,
+				C472DAA42E2E3056613D0372 /* Pods-Api-Tools.debug.xcconfig */,
+				81F719345D1949648017E282 /* Pods-Api-Tools.release.xcconfig */,
+				600DC09FF5A309799A2E36A0 /* Pods-Api-Tools-Api-ToolsTests.debug.xcconfig */,
+				F2F93AE297D319EA4E96D178 /* Pods-Api-Tools-Api-ToolsTests.release.xcconfig */,
+				FB4C4BA285A9DB0987579182 /* Pods-Api-ToolsOSX.debug.xcconfig */,
+				8280D0128980DF1645E48618 /* Pods-Api-ToolsOSX.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -91,12 +118,14 @@
 		281D996D25ADDDA0005D95BA = {
 			isa = PBXGroup;
 			children = (
+				28A0CBFC28F75A750052CA9C /* PrismaApiRouter.podspec */,
 				2863AD9F28D8FA120038EB6C /* ci_scripts */,
 				281D997825ADDDA0005D95BA /* Api-Tools */,
 				28CE9E40288C7E8B000C2B7A /* Api-ToolsTests */,
+				28A0CC0328F75AE00052CA9C /* Api-ToolsOSX */,
 				281D997725ADDDA0005D95BA /* Products */,
 				267146CDEBACD13C4DE52687 /* Pods */,
-				7322EEC10C2AD8ACF66E2D73 /* Frameworks */,
+				9F32B2C84D4289C23195AE54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +134,7 @@
 			children = (
 				281D997625ADDDA0005D95BA /* Api-Tools.app */,
 				28CE9E3F288C7E8B000C2B7A /* Api-ToolsTests.xctest */,
+				28A0CC0228F75AE00052CA9C /* Api-ToolsOSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +210,26 @@
 			path = ci_scripts;
 			sourceTree = "<group>";
 		};
+		28A0CC0328F75AE00052CA9C /* Api-ToolsOSX */ = {
+			isa = PBXGroup;
+			children = (
+				28A0CC0428F75AE00052CA9C /* Api_ToolsOSXApp.swift */,
+				28A0CC0628F75AE00052CA9C /* ContentView.swift */,
+				28A0CC0828F75AE20052CA9C /* Assets.xcassets */,
+				28A0CC0D28F75AE20052CA9C /* Api_ToolsOSX.entitlements */,
+				28A0CC0A28F75AE20052CA9C /* Preview Content */,
+			);
+			path = "Api-ToolsOSX";
+			sourceTree = "<group>";
+		};
+		28A0CC0A28F75AE20052CA9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28A0CC0B28F75AE20052CA9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		28CE9E3A288C722B000C2B7A /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,11 +248,12 @@
 			path = "Api-ToolsTests";
 			sourceTree = "<group>";
 		};
-		7322EEC10C2AD8ACF66E2D73 /* Frameworks */ = {
+		9F32B2C84D4289C23195AE54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94ED7D8A98CED429FCEEEFA0 /* Pods_Api_Tools.framework */,
-				F0765D61D4B33E7014763E34 /* Pods_Api_Tools_Api_ToolsTests.framework */,
+				8F95E4CCCA155B13EA5A8D49 /* Pods_Api_Tools.framework */,
+				8FB8B11CCF5A6C6C0C3FC554 /* Pods_Api_Tools_Api_ToolsTests.framework */,
+				C2573502C75B62B235EFBFCE /* Pods_Api_ToolsOSX.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,11 +265,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 281D998A25ADDDA2005D95BA /* Build configuration list for PBXNativeTarget "Api-Tools" */;
 			buildPhases = (
-				DB5482FFBD7457893BCCB003 /* [CP] Check Pods Manifest.lock */,
+				28B35B791C2EEF1B1EFA03C8 /* [CP] Check Pods Manifest.lock */,
 				281D997225ADDDA0005D95BA /* Sources */,
 				281D997325ADDDA0005D95BA /* Frameworks */,
 				281D997425ADDDA0005D95BA /* Resources */,
-				119B3C8CEB3E1AB868C17CCA /* [CP] Embed Pods Frameworks */,
+				9A2E921059948F991924E0A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,15 +280,34 @@
 			productReference = 281D997625ADDDA0005D95BA /* Api-Tools.app */;
 			productType = "com.apple.product-type.application";
 		};
+		28A0CC0128F75AE00052CA9C /* Api-ToolsOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A0CC0E28F75AE20052CA9C /* Build configuration list for PBXNativeTarget "Api-ToolsOSX" */;
+			buildPhases = (
+				C1860806EFD5C689DEF7D584 /* [CP] Check Pods Manifest.lock */,
+				28A0CBFE28F75AE00052CA9C /* Sources */,
+				28A0CBFF28F75AE00052CA9C /* Frameworks */,
+				28A0CC0028F75AE00052CA9C /* Resources */,
+				20EA37A8D788CAA76DFA623E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Api-ToolsOSX";
+			productName = "Api-ToolsOSX";
+			productReference = 28A0CC0228F75AE00052CA9C /* Api-ToolsOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
 		28CE9E3E288C7E8B000C2B7A /* Api-ToolsTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28CE9E45288C7E8B000C2B7A /* Build configuration list for PBXNativeTarget "Api-ToolsTests" */;
 			buildPhases = (
-				901DD31A64BEF510F2830771 /* [CP] Check Pods Manifest.lock */,
+				839185D57C5AC3634742AE4E /* [CP] Check Pods Manifest.lock */,
 				28CE9E3B288C7E8B000C2B7A /* Sources */,
 				28CE9E3C288C7E8B000C2B7A /* Frameworks */,
 				28CE9E3D288C7E8B000C2B7A /* Resources */,
-				DBB40184A12AE55DFE716D49 /* [CP] Embed Pods Frameworks */,
+				2748281510D3A9DDA3029EA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,11 +325,14 @@
 		281D996E25ADDDA0005D95BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					281D997525ADDDA0005D95BA = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					28A0CC0128F75AE00052CA9C = {
+						CreatedOnToolsVersion = 14.0.1;
 					};
 					28CE9E3E288C7E8B000C2B7A = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -282,6 +355,7 @@
 			targets = (
 				281D997525ADDDA0005D95BA /* Api-Tools */,
 				28CE9E3E288C7E8B000C2B7A /* Api-ToolsTests */,
+				28A0CC0128F75AE00052CA9C /* Api-ToolsOSX */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +372,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28A0CC0028F75AE00052CA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A0CC0C28F75AE20052CA9C /* Preview Assets.xcassets in Resources */,
+				28A0CC0928F75AE20052CA9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28CE9E3D288C7E8B000C2B7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,46 +391,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		119B3C8CEB3E1AB868C17CCA /* [CP] Embed Pods Frameworks */ = {
+		20EA37A8D788CAA76DFA623E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools/Pods-Api-Tools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Api-ToolsOSX/Pods-Api-ToolsOSX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools/Pods-Api-Tools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Api-ToolsOSX/Pods-Api-ToolsOSX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Api-Tools/Pods-Api-Tools-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Api-ToolsOSX/Pods-Api-ToolsOSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		901DD31A64BEF510F2830771 /* [CP] Check Pods Manifest.lock */ = {
+		2748281510D3A9DDA3029EA3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Api-Tools-Api-ToolsTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB5482FFBD7457893BCCB003 /* [CP] Check Pods Manifest.lock */ = {
+		28B35B791C2EEF1B1EFA03C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,21 +447,65 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DBB40184A12AE55DFE716D49 /* [CP] Embed Pods Frameworks */ = {
+		839185D57C5AC3634742AE4E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Api-Tools-Api-ToolsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A2E921059948F991924E0A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools/Pods-Api-Tools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools/Pods-Api-Tools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Api-Tools/Pods-Api-Tools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1860806EFD5C689DEF7D584 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Api-ToolsOSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -398,6 +520,17 @@
 				281D997A25ADDDA0005D95BA /* AppDelegate.swift in Sources */,
 				281D99A325ADE548005D95BA /* Todo.swift in Sources */,
 				281D997C25ADDDA1005D95BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A0CBFE28F75AE00052CA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A0CC1228F75B020052CA9C /* ApiTodo.swift in Sources */,
+				28A0CC0728F75AE00052CA9C /* ContentView.swift in Sources */,
+				28A0CC1128F75AFD0052CA9C /* Todo.swift in Sources */,
+				28A0CC0528F75AE00052CA9C /* Api_ToolsOSXApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,7 +693,7 @@
 		};
 		281D998B25ADDDA2005D95BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2141AB901EFDB3E1B0CEF001 /* Pods-Api-Tools.debug.xcconfig */;
+			baseConfigurationReference = C472DAA42E2E3056613D0372 /* Pods-Api-Tools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -580,7 +713,7 @@
 		};
 		281D998C25ADDDA2005D95BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D370DCF5B242C75545677525 /* Pods-Api-Tools.release.xcconfig */;
+			baseConfigurationReference = 81F719345D1949648017E282 /* Pods-Api-Tools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -598,9 +731,71 @@
 			};
 			name = Release;
 		};
+		28A0CC0F28F75AE20052CA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4C4BA285A9DB0987579182 /* Pods-Api-ToolsOSX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Api-ToolsOSX/Api_ToolsOSX.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Api-ToolsOSX/Preview Content\"";
+				DEVELOPMENT_TEAM = 6M3752W435;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orka.Api-ToolsOSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		28A0CC1028F75AE20052CA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8280D0128980DF1645E48618 /* Pods-Api-ToolsOSX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Api-ToolsOSX/Api_ToolsOSX.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Api-ToolsOSX/Preview Content\"";
+				DEVELOPMENT_TEAM = 6M3752W435;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orka.Api-ToolsOSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		28CE9E46288C7E8B000C2B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C0C5A4CE219913424540494 /* Pods-Api-Tools-Api-ToolsTests.debug.xcconfig */;
+			baseConfigurationReference = 600DC09FF5A309799A2E36A0 /* Pods-Api-Tools-Api-ToolsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -621,7 +816,7 @@
 		};
 		28CE9E47288C7E8B000C2B7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC77DA3C13E6430B737B9556 /* Pods-Api-Tools-Api-ToolsTests.release.xcconfig */;
+			baseConfigurationReference = F2F93AE297D319EA4E96D178 /* Pods-Api-Tools-Api-ToolsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -657,6 +852,15 @@
 			buildConfigurations = (
 				281D998B25ADDDA2005D95BA /* Debug */,
 				281D998C25ADDDA2005D95BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A0CC0E28F75AE20052CA9C /* Build configuration list for PBXNativeTarget "Api-ToolsOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A0CC0F28F75AE20052CA9C /* Debug */,
+				28A0CC1028F75AE20052CA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

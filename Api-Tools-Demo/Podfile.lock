@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.6.2)
-  - PrismaApiRouter (1.1.1):
+  - PrismaApiRouter (1.1.2):
     - Alamofire (~> 5)
 
 DEPENDENCIES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  PrismaApiRouter: c17a420709e5c9a48e3a63bd27a0078a824a0ba3
+  PrismaApiRouter: 7d467e8bae52ad6259bfe7d54b3739fd23bb5baa
 
-PODFILE CHECKSUM: 1a8cdec9e810de354da6d6d8cbc9fc306b79d129
+PODFILE CHECKSUM: c2aa554ca1fe0a8b70e0bab2d0783d0d11568f0d
 
 COCOAPODS: 1.11.3
