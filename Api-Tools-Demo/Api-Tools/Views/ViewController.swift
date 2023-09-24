@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import PrismaApiRouter
+import OrkaApiRouter
 
 class ViewController: UIViewController {
     

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PrismaApiRouter
+import OrkaApiRouter
 
 struct ContentView: View {
     var body: some View {
