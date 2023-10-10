@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.1.5
+
+### fix 
+- if you don't have a "path", a slash is not added to your url
+
+
+## 1.1.4
+
+### Update 
+- Demo application
+
+
+## 1.1.3
+
+### Add
+- Add support SPM
+
+
 ## 1.1.2
 
 ### Fix
