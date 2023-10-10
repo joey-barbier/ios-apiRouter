@@ -17,17 +17,20 @@ open class ApiRouter {
 extension ApiRouter {
     @discardableResult
     internal static func call(withRoute route: Route,
-                     completionCall: @escaping ((AFDataResponse<Data>)->())) -> DataRequest
+                              completionCall: @escaping ((AFDataResponse<Data>)->())) -> DataRequest
     {
-        let urlRequest = route.baseUrl.appendingPathComponent(route.path)
+        var url = route.baseUrl
+        if !route.path.isEmpty {
+            url = url.appendingPathComponent(route.path)
+        }
         
-        return AF.request(urlRequest,
+        return AF.request(url,
                           method: route.method,
                           parameters: route.parameters,
                           encoding: route.encoding,
                           headers: route.headers).responseData { response in
-                            completionCall(response)
-                          }
+            completionCall(response)
+        }
     }
 }
 
